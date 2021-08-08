@@ -1,0 +1,90 @@
+.hidden{
+    display : none;
+}
+
+@keyframes background{
+    from{
+        opacity : 0;
+    }
+    to{
+        opacity : 1;
+    }
+}
+
+#bgImage{
+    position : absolute;
+    top: 0;
+    left : 0;
+    z-index: -1;
+    width: 100%;
+    height : 100%;
+    animation : background 0.7s linear;
+}
+
+#clock{
+    font-size : 100px;
+    color : white;
+    display : flex;
+    justify-content: center;
+    margin-top : 200px;
+    margin-bottom : 0;
+}
+
+#date{
+    position : absolute;
+    top : 5px;
+    right : 5px;
+    font-size : 20px;
+    margin-block-start : 0;
+    background-color : rgba(241, 180, 66, 0.4);
+    color : yellow;
+    padding : 5px;
+    border-radius: 20px;
+}
+
+#login-form{
+    position : absolute;
+    top : 5px;
+    right : 5px;
+}
+
+#greeting{
+    font-size: 50px;
+    display : flex;
+    justify-content: center;
+    color : orange;
+    
+}
+
+.todo-form_class, .todo-list_class{
+    display : flex;
+    justify-content: center;
+    text-align: center;
+}
+
+#todo-list{
+    font-size: 20px;
+    color : white;
+    font-weight: bold;
+    padding : 5px;
+    border-radius: 10px;
+}
+
+
+#weather{
+    position : absolute;
+    top : 5px;
+    color : yellow;
+    font-size : 20px;
+    background-color : rgba(241, 180, 66, 0.4);
+    padding : 5px;
+    border-radius: 20px;
+}
+
+#quote{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color : greenyellow;
+    opacity: 0.65;
+}
